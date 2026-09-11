@@ -54,11 +54,8 @@ O projeto está organizado em camadas para manter uma separação clara de respo
 
 ```text
 controller/  → recebe as requisições HTTP
-
 service/     → implementa as regras de negócio
-
 repository/  → acesso ao MongoDB
-
 model/       → entidades persistidas na coleção de livros
 ```
 
@@ -81,7 +78,7 @@ A primeira versão da PoC contempla:
 
 ---
 
-# ▶Como executar
+# Como executar
 
 ## Pré-requisitos
 
