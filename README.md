@@ -44,7 +44,6 @@ A plataforma é destinada a pessoas interessadas em doar livros e a estudantes, 
 - **Maven**
 - **JUnit 5**
 - **Mockito**
-- **JaCoCo** (Cobertura de testes)
 - **Git e GitHub**
 - **HTML5**
 - **CSS3**
@@ -130,12 +129,6 @@ Para gerar e validar a cobertura mínima de testes:
 
 ```bash
 mvn verify
-```
-
-O relatório de cobertura será gerado em:
-
-```text
-target/site/jacoco/index.html
 ```
 
 ---
