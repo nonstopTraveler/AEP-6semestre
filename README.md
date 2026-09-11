@@ -1,3 +1,7 @@
+# Alunos:
+ Danilo Antonio Alves Rosa, RA:24047644-2
+ Renan Homiak Guimarães, RA: 24000668-2
+
 # DoeLivro
 
 > Plataforma de doação de livros desenvolvida como Prova de Conceito (PoC) para a Atividade de Estudo Programada (AEP) do 6º semestre de Engenharia de Software.
