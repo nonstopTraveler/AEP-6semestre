@@ -1,10 +1,10 @@
-# 📚 DoeLivro
+# DoeLivro
 
 > Plataforma de doação de livros desenvolvida como Prova de Conceito (PoC) para a Atividade de Estudo Programada (AEP) do 6º semestre de Engenharia de Software.
 
 ---
 
-# 📖 Problema
+# Problema
 
 O acesso à leitura ainda é um desafio para muitas pessoas devido ao alto custo de livros didáticos, técnicos e literários. Ao mesmo tempo, milhares de livros permanecem armazenados sem uso ou acabam sendo descartados após cumprirem sua finalidade.
 
@@ -14,7 +14,7 @@ O **DoeLivro** busca solucionar esse problema oferecendo uma plataforma onde usu
 
 ---
 
-# 🌍 ODS relacionada
+# ODS relacionada
 
 ## **ODS 4 — Educação de Qualidade**
 
@@ -24,13 +24,13 @@ Ao facilitar a doação de livros, o DoeLivro contribui para ampliar o acesso ao
 
 ---
 
-# 👥 Público-alvo
+# Público-alvo
 
 A plataforma é destinada a pessoas interessadas em doar livros e a estudantes, leitores e instituições que buscam acesso a materiais de leitura de forma gratuita.
 
 ---
 
-# 🛠 Tecnologias utilizadas
+# Tecnologias utilizadas
 
 - **Java 21**
 - **Spring Boot**
@@ -48,7 +48,7 @@ A plataforma é destinada a pessoas interessadas em doar livros e a estudantes, 
 
 ---
 
-# 🏗 Arquitetura
+# Arquitetura
 
 O projeto está organizado em camadas para manter uma separação clara de responsabilidades:
 
@@ -66,7 +66,7 @@ Essa arquitetura facilita a manutenção, evolução e organização do código,
 
 ---
 
-# 🚀 Funcionalidades da 1ª entrega
+# Funcionalidades da 1ª entrega
 
 A primeira versão da PoC contempla:
 
@@ -81,11 +81,11 @@ A primeira versão da PoC contempla:
 
 ---
 
-# ▶️ Como executar
+# ▶Como executar
 
 ## Pré-requisitos
 
-- Java 21 ou superior;
+- Java 21;
 - Maven;
 - MongoDB em execução.
 
@@ -117,7 +117,7 @@ http://localhost:8080
 
 ---
 
-# 🧪 Como executar os testes
+# Como executar os testes
 
 Para executar os testes automatizados:
 
@@ -139,7 +139,7 @@ target/site/jacoco/index.html
 
 ---
 
-# 🗄 Estrutura do banco de dados
+# Estrutura do banco de dados
 
 A primeira entrega utiliza uma única coleção NoSQL contendo documentos homogêneos referentes aos livros cadastrados para doação.
 
@@ -157,7 +157,7 @@ Exemplo:
 
 ---
 
-# 📁 Estrutura do projeto
+# Estrutura do projeto
 
 ```text
 src
@@ -173,22 +173,3 @@ src
 
 ---
 
-# 🔄 Próximos passos (2ª entrega)
-
-- Evoluir para múltiplas coleções no MongoDB;
-- Implementar relacionamento entre livros e usuários;
-- Adicionar autenticação de usuários;
-- Melhorar a interface da aplicação;
-- Ampliar os testes automatizados e a documentação técnica.
-
----
-
-# 👨‍💻 Equipe
-
-Projeto desenvolvido para a disciplina **AEP – Engenharia de Software – 6º semestre**.
-
----
-
-# 📄 Licença
-
-Projeto desenvolvido exclusivamente para fins acadêmicos.
