@@ -163,12 +163,36 @@ Exemplo:
 src
 ├── main
 │   ├── java
-│   │   ├── controller
-│   │   ├── service
-│   │   ├── repository
-│   │   └── model
+│   │   └── com
+│   │       └── aep
+│   │           └── ler
+│   │               ├── LerApplication.java
+│   │               ├── controller
+│   │               │   └── LivroController.java
+│   │               ├── model
+│   │               │   └── Livro.java
+│   │               ├── repository
+│   │               │   └── LivroRepository.java
+│   │               └── service
+│   │                   └── LivroService.java
 │   └── resources
+│       ├── application.properties
+│       └── static
+│           ├── index.html
+│           ├── script.js
+│           └── style.css
 └── test
+    └── java
+        └── com
+            └── aep
+                └── ler
+                    ├── LerApplicationTests.java
+                    ├── controller
+                    │   └── LivroControllerTest.java
+                    ├── model
+                    │   └── LivroTest.java
+                    └── service
+                        └── LivroServiceTest.java
 ```
 
 ---
